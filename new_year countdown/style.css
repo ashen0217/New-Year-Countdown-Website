@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400&family=Be+Vietnam+Pro:wght@400;500;700&family=Jost:wght@200;300;500&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Rubik:wght@400;600;800&display=swap");
+*{
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'poppins','sans-serif';
+    background-image: url(images/1.jpg);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hd{
+    color: aliceblue;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: normal;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-e{
+    text-align: center;
+}
+
+.countdown-e span{
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+#days{
+    color: aliceblue;
+}
+
+#hours{
+    color: aliceblue;
+}
+
+#minutes{
+    color: aliceblue;
+}
+
+#seconds{
+    color: aliceblue;
+    ch
+}
